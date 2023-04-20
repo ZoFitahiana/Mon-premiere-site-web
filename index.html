@@ -1,10 +1,856 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-   <title></title>
-   <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Star-Dev</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <!-- mon css-->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Vendor CSS Files -->
+    <!-- Bug raya  -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- link de mon bootstrap-->
+    <script src="js/index.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <!-- Vendor CSS Files -->
+    <link href="css/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 </head>
-<body>
-   <h1>Ceci est un teste</h1>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-black" href="#page-top">Star-dev</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 text-black rounded"
+                            href="#parcour_">Parcours</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 text-black rounded"
+                            href="#team">Mes équipes</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 text-black rounded"
+                            href="#client">Partenaires</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 text-black rounded"
+                            href="#skills">Competences</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 text-black rounded"
+                            href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead text-black bg-light ">
+        <div class="container  align-items-center gap-2 ">
+            <div class="row gap-4">
+                <div class="col">
+                    <!-- Masthead Heading-->
+                    <h4 class="text-primary">Je suis </h4>
+                    <h1 class="text-uppercase mb-0 fw-bold fs-2">RAKOTONIRINA Tsiaro</h1>
+                    <!-- Icon Divider-->
+                    <div style="margin-top: 5%; margin-bottom: 5%;">
+                        <h3 class="typed-text-output d-inline font-weight-lighter text-primary">.</h3>
+                        <div class="typed-text d-none">Je suis codeur, Je suis Developpeur, Je suis programmeur, Je suis
+                            designer</div>
+                    </div>
+                    <!-- Masthead Subheading-->
+                    <p class="masthead-subheading font-weight-light mb-0">" Le principe de l'évolution est beaucoup plus
+                        rapide en informatique que chez le bipède. "</p>
+                    <!-- Masthead button-->
+                    <div class="d-grid gap-2 d-md-block" style="margin-top: 1.5cm;">
+                        <a class="btn btn-primary text-center" style="border-radius: 20px; width: 3cm; height: 1.2cm;"
+                            href="#about" role="button">Apropos</a>
+                        <a class="btn btn-outline-primary text-center"
+                            style="border-radius: 20px; width: 3cm; height: 1.2cm;" href="#contact"
+                            role="button">Contact</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div>
+                        <!-- Masthead Avatar Image-->
+                        <img class="masthead-avatar mb-5" style="border-radius: 50%;"
+                            src="image/COUPER_-removebg-preview.png" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--apropos de moi-->
+        <div class="container-fluid py-5" id="about">
+            <div class="container">
+                <div class="position-relative d-flex align-items-center justify-content-center">
+                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Apropos
+                    </h1>
+                    <h1 class="position-absolute text-uppercase text-primary">Apropos de moi</h1>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 pb-4 pb-lg-0">
+                        <img class="img-fluid rounded w-100" src="image/zo.png" alt="">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="mb-4">Developpeur Full Stack</h3>
+                        <p>Je suis ravi de vous présenter quelques informations sur Moi :</p>
+                        <div class="row mb-3">
+                            <div class="col-sm-6 py-2">
+                                <h6>Name: <span class="text-secondary">RAKOTONIRINA Tsiaro</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Date de naissance: <span class="text-secondary">25 Septembre 2004</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Diplôme: <span class="text-secondary">Master</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Experience: <span class="text-secondary">5 ans</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Tél: <span class="text-secondary">+261 34 55 588 45</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Email: <span class="text-secondary">hei.tsiaroniaina@gmail.com</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Address: <span class="text-secondary">Lot 130 67ha Sud, Antananarivo
+                                        MADAGASCAR</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Genre: <span class="text-secondary">Homme</span></h6>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="#client" class="btn btn-outline-primary mr-4">Partenaires</a>
+                            <a href="#skills" class="btn btn-outline-primary">Domaine d'expertise</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Mes  Parcours-->
+        <section id="parcour_" class=" bg-light">
+            <div class="pond text-center align-items-cente">
+                <a href="#parcour_" id="fleche"><i class="bi bi-arrow-down " style="color: orangered;"></i></a>
+                <a href="#parcour_" style="text-decoration: none;">
+                    <p class="text-primary">Mon qualification </p>
+                </a>
+            </div>
+            <h2 class="text-black fw-bold text-uppercase text-center fs-3 reveal" style="margin-top: -0.5cm; ">Mon
+                parcours
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom reveal gap-2">
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+            </div>
+
+            <div class="container reveal">
+                <div class="row" style="margin-top: 1cm; ">
+                    <div class="col">
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-mortarboard text-primary"></i>
+                            <p class="text-ligth fw-bold">EDUCATION</p>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-2">
+                                <i class="bi bi-check2-circle"></i>
+                                <p class="text-black">Master en informatique (Paris)</p>
+                            </div>
+                            <div style="margin-top: -0.2cm;">
+                                <ul>
+                                    <li>Langages et Programmation</li>
+                                    <li>Conception et développement de solutions informatiques intégrées </li>
+                                    <li class="text-primary fw-bold">2025-2026</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="d-flex gap-2">
+                                <i class="bi bi-check2-circle"></i>
+                                <p class="text-black">Licence en informatique (<a
+                                        href="https://www.facebook.com/hei.school"
+                                        style="color: rgb(245, 87, 13);">Haute école informatique</a>)</p>
+                            </div>
+                            <div style="margin-top: -0.2cm;">
+                                <ul>
+                                    <li>Écosystèmes Logiciels</li>
+                                    <li class="text-primary fw-bold">2024-2025</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-2">
+                                <i class="bi bi-check2-circle"></i>
+                                <p class="text-black">baccalauréat (2)</p>
+                            </div>
+                            <div style="margin-top: -0.2cm;">
+                                <ul>
+                                    <li>Organisation Sociaux Economique (OSE)</li>
+                                    <li>Scientifique (S)</li>
+                                    <li class="text-primary fw-bold">2021-2022</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-bag-check-fill text-primary"></i>
+                            <p class="text-ligth fw-bold">EXPERIENCE</p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <i class="bi bi-check2-circle"></i>
+                            <p class="text-black">Gestion de la sécurité numérique</p>
+                        </div>
+                        <div style="margin-top: -0.2cm;">
+                            <ul>
+                                <li>Banque Centrale</li>
+                                <li>BNI</li>
+                                <li class="text-primary fw-bold">2025-2026</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-2">
+                                <i class="bi bi-check2-circle"></i>
+                                <p class="text-black">Chef de projet</p>
+                            </div>
+                            <div style="margin-top: -0.2cm;">
+                                <ul>
+                                    <li>ID-WEB</li>
+                                    <li class="text-primary fw-bold">2024-2025</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-2">
+                                <i class="bi bi-check2-circle"></i>
+                                <p class="text-black">Alternance</p>
+                            </div>
+                            <div style="margin-top: -0.2cm;">
+                                <ul>
+                                    <li>Novity</li>
+                                    <li>ID-WEB</li>
+                                    <li class="text-primary fw-bold">2023-2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section id="team" class="team section-bg page-section portfolio ">
+            <!-- Portfolio Section Heading-->
+            <div class="section-title">
+                <h3 class="page-section-heading text-black fw-bold text-uppercase text-center fs-3 reveal">En tant que
+                    chef d'équipe !</h3>
+                <p class=" text-center reveal">"Je suis ravi de vous présenter mon équipe !"</p>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom reveal gap-2">
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="container reveal" data-aos="fade-up">
+                <div class="row reveal">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="member d-flex align-items-start" data-bs-toggle="modal"
+                            data-bs-target="#portfolioModal1">
+                            <div class="pic"><img src="image/Anjara.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Anjara RAMANATSOA</h4>
+                                <span>Programmeur</span>
+                                <p>"La meilleure façon de prédire l'avenir est de l'inventer."</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="member d-flex align-items-start" data-bs-toggle="modal"
+                            data-bs-target="#portfolioModal2">
+                            <div class="pic"><img src="image/Manoa.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>RAZAFIMAHENINA Manoa</h4>
+                                <span>Designer</span>
+                                <p>"Le design est une réponse créative à un problème."</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="member d-flex align-items-start" data-bs-toggle="modal"
+                            data-bs-target="#portfolioModal3">
+                            <div class="pic"><img src="image/Tiantsoa.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>RAKOTOSON Tiantsoa</h4>
+                                <span>Designer</span>
+                                <p>"Le design ne doit pas seulement être beau, mais aussi fonctionnel."</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="member d-flex align-items-start" data-bs-toggle="modal"
+                            data-bs-target="#portfolioModal4">
+                            <div class="pic"><img src="image/Kevin.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>RAJAONARISON KEVIN</h4>
+                                <span>Programmeur</span>
+                                <p>"Un code propre est un code qui fonctionne."</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mes client -->
+        <section id="client" class="services bg-light section-bg ">
+            <div class="container " data-aos="fade-up">
+                <div class="container">
+                    <div class="position-relative d-flex align-items-center justify-content-center">
+                        <h2 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+                            PARTENAIRES</h2>
+                        <h2 class="position-absolute text-uppercase text-primary">PARTENAIRES & SPONSORS</h2>
+                    </div>
+
+                    <div class="section-title">
+                        <p class="text-center">Je suis ravi de vous presenter quelques entreprises qui fond parti de mon
+                            PARTENAIRES</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in"
+                            data-aos-delay="100">
+                            <div class="icon-box">
+                                <img class="img-fluid mx-auto mb-3" src="image/novity.jpg"
+                                    style="width: 80px; height: 80px;" alt="...">
+                                <h4><a href="https://www.novity.io/" style="text-decoration: none;">Novity</a></h4>
+                                <p>Novity est une ESN française spécialisée dans la construction d'équipes de
+                                    développement à Madagascar et à Maurice.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                            data-aos-delay="200">
+                            <div class="icon-box">
+                                <img class="img-fluid mx-auto mb-3" src="image/id-web.jpg" alt="...">
+                                <h4><a href="https://www.goodid-communication.com/"
+                                        style="text-decoration: none;">Good-Id</a></h4>
+                                <p>Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                            data-aos-delay="300">
+                            <div class="icon-box">
+                                <img class="img-fluid  mx-auto mb-3" src="image/hei.jpg"
+                                    style="width: 80px; height: 80px;" alt="...">
+                                <h4><a href="https://www.hei.school/" style="text-decoration: none;">Haute École
+                                        d'Informatique</a></h4>
+                                <p>Professionnels du monde entier unis pour former les étudiants malgaches suivant les
+                                    plus hauts standards.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                            data-aos-delay="400">
+                            <div class="icon-box">
+                                <img class="img-fluid mx-auto mb-3" src="image/vanilla_pay.png" alt="...">
+                                <h4><a href="https://online.mg/" style="text-decoration: none;">vanilla Pay</a></h4>
+                                <p>Intégrateur de Paiement en ligne en Ariary pour les entreprises.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <!-- mon domaine d'expertige-->
+        <section id="skills" class="skills bg-white reveal ">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="image/HTML-CSS-JS-Logo-min.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="zoom-in" data-aos-delay="100">
+                        <!-- Icon Divider-->
+                        <div class="divider-custom gap-2">
+                            <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                            <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                        </div>
+
+                        <h3>Mon domaine d'expertises.</h3>
+                        <p>
+                            En tant que développeur web expérimenté, je suis expert dans la création d'interfaces
+                            utilisateur modernes et réactives en utilisant une combinaison de HTML, CSS et JavaScript
+                            ainsi que le framework Bootstrap, qui me permet de développer des sites web rapidement et
+                            efficacement tout en offrant une expérience utilisateur de haute qualité.
+                        </p>
+
+                        <div class="skills-content">
+
+                            <div class="progress">
+                                <span class="skill">HTML <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">CSS <i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">JavaScript <i class="val">80%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <span class="skill">Bootstrap<i class="val">90%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class=" page-section bg-light" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-black fw-bold text-uppercase text-center fs-3 reveal">Contactez-moi
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom reveal gap-2">
+                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center reveal">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class=" mb-3">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label text-black fs-4">Nom Complet :</label>
+                                    <input class="form-control" id="name" type="text" placeholder="saisir votre Nom..."
+                                        data-sb-validations="required,name">
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">Un nom est requis.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-black fs-4">Email address :</label>
+                                <input type="email" class="form-control" id="email" placeholder="Nom@exemple.com"
+                                    data-sb-validations="required,e-mail">
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Un e-mail est requis.
+                                </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">L'e-mail n'est pas valide.
+                                </div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class=" mb-3">
+                                <label for="phone" class="text-black fs-4">Numéro de téléphone :</label>
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                    data-sb-validations="required">
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Un numéro de téléphone
+                                    est
+                                    requis.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="mb-3">
+                                <label class="text-black fs-4">Message :</label>
+                                <textarea class="form-control" placeholder="Entrez votre message ici..."
+                                    style="height: 10rem ; " data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis.
+                                </div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Soumission de formulaire réussie!</div>
+                                    Pour activer ce formulaire, inscrivez-vous à
+                                    <br>
+                                    <a
+                                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Erreur lors de l'envoi du message !</div>
+                            </div>
+                            <!-- Submit Button-->
+                            <button class="btn btn-primary btn-xl " id="submitButton" type="submit">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="footer ">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Contactez-moi</h4>
+                    <p class="lead mb-0">
+                        Email: hei.tsiaroniaina@gmail.com
+                        <br>
+                        Tél: +261 34 555 588 45
+                        <br>
+                        Addresse :Lot 130 67ha Sud
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Autour du WEB</h4>
+                    <a class="btn btn-outline-light btn-social mx-1"
+                        href="https://www.facebook.com/tsiaroniaina.fitahiana/photos"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/tsiaro.tsiaro/"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">À propos de Moi</h4>
+                    <p class="lead mb-0">
+                        Développeur Full Stack
+                        <br>
+                        Diplôme : MASTER en informatique
+                        <br>
+                        Pays : MADAGASCRAR
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Star-Dev &copy; Website 2022</small></div>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body  pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2
+                                    class="portfolio-modal-title text-secondary text-center text-uppercase mb-0 text-black">
+                                    ANJARA</h2>
+                                <div style="margin-top: 3%;">
+                                    <h5 class="text-primary text-center">Programmeur</h5>
+                                </div>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom reveal gap-2">
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="image/Anjara.jpg"
+                                            style="height: 8cm;width: 8cm;" alt="...">
+
+                                    </div>
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">" Travailler ensemble est la reussite "</p>
+                                        <h3 class="text-black fs-3 fw-bold">Travails :</h3>
+                                        <ul>
+                                            <li>Développeur web</li>
+                                            <li>Développeur de logiciels</li>
+                                            <li>Développeur d'applications mobiles</li>
+                                            <li>Ingénieur logiciel</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" style=" height: 1cm; width: 3cm;"
+                                    data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body  pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2
+                                    class="portfolio-modal-title text-secondary text-center text-uppercase mb-0 text-black">
+                                    MANOA</h2>
+                                <div style="margin-top: 3%;">
+                                    <h5 class="text-primary text-center">Designer</h5>
+                                </div>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom reveal gap-2">
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="image/Manoa.jpg"
+                                            style="height: 8cm;width: 8cm;" alt="...">
+
+                                    </div>
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">" Soyez vous-même, imposez-vous le style "</p>
+                                        <h3 class="text-black fs-3 fw-bold">Travails :</h3>
+                                        <ul>
+                                            <li>Designer graphique</li>
+                                            <li>Designer d'interface utilisateur (UI)</li>
+                                            <li>Designer d'expérience utilisateur (UX)</li>
+                                            <li>Designer industrie</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" style=" height: 1cm; width: 3cm;"
+                                    data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body  pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2
+                                    class="portfolio-modal-title text-secondary text-center text-uppercase mb-0 text-black">
+                                    TIANTSOA</h2>
+                                <div style="margin-top: 3%;">
+                                    <h5 class="text-primary text-center">Designer</h5>
+                                </div>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom reveal gap-2">
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="image/Tiantsoa.jpg"
+                                            style="height: 8cm;width: 8cm;" alt="...">
+
+                                    </div>
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">" Se reunir c'est un but "</p>
+                                        <h3 class="text-black fw-bold fs-3">Travails:</h3>
+                                        <ul>
+                                            <li>Designer de mode</li>
+                                            <li>Designer d'intérieur</li>
+                                            <li>Designer de produits</li>
+                                            <li>Designer graphique</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" style=" height: 1cm; width: 3cm;"
+                                    data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body  pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2
+                                    class="portfolio-modal-title text-secondary text-center text-uppercase mb-0 text-black">
+                                    KEVIN</h2>
+                                <div style="margin-top: 3%;">
+                                    <h5 class="text-primary text-center">Programmeur</h5>
+                                </div>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom reveal gap-2">
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star text-warning"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Image-->
+                                        <img class="img-fluid rounded mb-5" src="image/Kevin.jpg"
+                                            style="height: 8cm;width: 8cm;" alt="...">
+
+                                    </div>
+                                    <div class="col">
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">" Vous pensez que travailler est difficile ? Essayez d'échouer "
+                                        </p>
+                                        <h3 class="text-black fw-bold fs-3">Travails:</h3>
+                                        <ul>
+                                            <li>Développeur d'applications mobiles</li>
+                                            <li>Développeur web</li>
+                                            <li>Développeur de jeux vidéo</li>
+                                            <li>Ingénieur DevOps</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" style=" height: 1cm; width: 3cm;"
+                                    data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- text Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 </body>
+
 </html>
